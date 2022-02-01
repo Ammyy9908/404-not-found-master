@@ -8,11 +8,11 @@ function App() {
       </div>
 
       <div class="page-content">
-        <div className='page-illustration'><img src="/Scarecrow.png"/></div>
+        <div className='page-illustration'><img src="/Scarecrow.png" alt='hero'/></div>
         <div className='hero-content'>
           <h1>I have bad news for you</h1>
           <p>The page you are looking for might be removed or is temporarily unavailable</p>
-          <a href='#' className='back_btn'>Back to Home</a>
+          <a href='#back' className='back_btn'>Back to Home</a>
         </div>
 
        
