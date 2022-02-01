@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="header">
+        <a href="#app">404 not found</a>
+      </div>
+
+      <div class="page-content">
+        <div className='page-illustration'><img src="/Scarecrow.png"/></div>
+        <div className='hero-content'>
+          <h1>I have bad news for you</h1>
+          <p>The page you are looking for might be removed or is temporarily unavailable</p>
+          <a href='#' className='back_btn'>Back to Home</a>
+        </div>
+
+       
+        </div>
+        <div className='footer'>
+          <p>created by <strong>sumit</strong> - devChallenges.io</p>
+        </div>
     </div>
   );
 }

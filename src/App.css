@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.App{
+  width: 90%;
+  margin: 10px auto;
+  position: relative;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header{
+  margin-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.header > a{
+  color: #000;
+}
+
+.page-content{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  gap:45px;
   flex-direction: column;
+}
+
+.page-illustration{
+  width: 280px;
+}
+
+.page-illustration img{
+  width: 100%;
+}
+
+.hero-content h1{
+  font-size: 32px;
+  width: auto;
+  color: #333333;
+  line-height: 41px;
+}
+.hero-content p{
+  color: #4F4F4F;
+  width: auto;
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+.back_btn{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #333;
+  color: #fff;
+  max-width: 216px;
+  min-height: 48px;
+  padding:12px 43px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  color: #BDBDBD;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width:968px){
+  .page-content{
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header{
+    margin-bottom: 200px;
   }
+
+  .hero-content p{
+    font-size: 18px;
+  }
+
+  .hero-content h1{
+    font-size: 64px;
+    width: 586px;
+    line-height: 95px;
+  
+  }
+  
+  .hero-content p{
+    
+    width: 381px;
+   
+  }
+  
+  .page-illustration{
+    width: 435px;
+  }
+  
+  .App{
+    margin: 45px auto;
+  }
+
+  .footer{
+    bottom: 55px;
+  }
+
+  .header{
+    margin-bottom: 200px;
+  }
+  
 }
