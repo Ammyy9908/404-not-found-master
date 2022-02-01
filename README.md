@@ -69,5 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://sumit.engineer)
-- GitHub [@your-username](https://{github.com/ammyy9908)
+- Website [https://sumit.engineer](https://sumit.engineer)
+- GitHub [@ammyy9908](https://{github.com/ammyy9908)
